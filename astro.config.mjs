@@ -11,10 +11,6 @@ export default defineConfig({
 				src: './public/pixelseasons-logo.png',
 				alt: 'PixelSeasons',
 			},
-			social: [
-				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/pixelseasons' },
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/pixelseasons' },
-			],
 			customCss: ['./src/styles/custom.css'],
 			sidebar: [
 				{
