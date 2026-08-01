@@ -1,40 +1,68 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
-hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
-  actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+title: PixelSeasons
+description: Добро пожаловать на сервер PixelSeasons — лучший Minecraft Java Edition сервер с сезонными ивентами!
+template: splash
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+<div style="text-align:center; margin: 2rem 0 1rem;">
+  <img src="/pixelseasons-logo.png" alt="PixelSeasons Logo" style="margin: 0 auto; max-height: 96px; image-rendering: pixelated;" />
+</div>
+
+<div style="text-align:center; margin-bottom: 2.5rem;">
+  <span style="display:inline-block; background:#0d1a0f; border:2px solid #3ddc5a; border-radius:4px; padding:0.4em 1.2em; font-size:1.15rem; color:#3ddc5a; letter-spacing:0.1em; box-shadow:0 0 16px #3ddc5a44;">
+    🖥️ play.pixelseasons.net
+  </span>
+  <br/>
+  <span style="color:#a8d5b0; font-size:0.95rem; margin-top:0.5rem; display:inline-block;">Java Edition · 1.20.x · Онлайн 24/7</span>
+</div>
+
+## Что тебя ждёт?
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="🍂 RealisticSeasons" icon="sun">
+    Настоящие времена года — снег зимой, жара летом, листья осенью. Сезоны влияют на фермы, температуру и весь мир.
+    [Подробнее →](/plugins/realistic-seasons/)
+  </Card>
+  <Card title="🏰 Lands — Территории" icon="shield">
+    Захватывай чанки, строй территории и получай полную защиту от гриферов.
+    [Подробнее →](/plugins/lands/)
+  </Card>
+  <Card title="🚀 Как начать" icon="right-arrow">
+    Пошаговая инструкция для новичков — от подключения до первой защищённой базы.
+    [Читать →](/guides/getting-started/)
+  </Card>
+  <Card title="📋 Правила" icon="document">
+    Прочитай правила до начала игры — незнание не освобождает от ответственности.
+    [Читать →](/guides/rules/)
+  </Card>
+  <Card title="📚 Все команды" icon="list-format">
+    Быстрый справочник команд по обоим плагинам на одной странице.
+    [Смотреть →](/reference/commands/)
+  </Card>
+  <Card title="❓ FAQ" icon="open-book">
+    Ответы на самые популярные вопросы — по сезонам, защите и устройству сервера.
+    [Читать →](/guides/faq/)
+  </Card>
 </CardGrid>
+
+## Сезон уже начался! 🍂
+
+Что даёт плагин RealisticSeasons:
+- 🌲 **Реалистичные времена года** — цвет листьев, снег, температура, погода
+- 📅 **Календарь в bossbar** — видишь текущий день сезона
+- 🌡️ **Температура над экраном** — управляет урожаем и твоим здоровьем
+- 🌾 **Влияние на фермы** — зимой культуры не растут, летом — быстро
+
+Со своей стороны плагин Lands обеспечивает:
+- 🏰 **Полную защиту** от гриферства и краж
+- 👥 **Управление доступом** — приглашай друзей в свои территории
+- 🗺️ **Система ролей** — владелец, со-владелец, участник, гость
+
+---
+
+<div style="text-align:center; color:#a8d5b0; font-size:0.9rem;">
+  Присоединяйся к нашему <strong style="color:#3ddc5a">Discord</strong> для последних новостей и общения с комьюнити!
+</div>
+

@@ -1,0 +1,138 @@
+/* Подключение шрифта Minecraft */
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/fonts/Minecraft.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Применение шрифта к заголовкам */
+:root {
+  --sl-font-headings: 'Minecraft', monospace;
+  --sl-color-accent: #3ddc5a;
+  --sl-color-accent-low: #1a3d22;
+  --sl-color-accent-high: #7aff96;
+  --sl-color-text-accent: #3ddc5a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Minecraft', monospace !important;
+  letter-spacing: 0.03em;
+}
+
+/* Стилизация шапки сайта */
+.site-title {
+  font-family: 'Minecraft', monospace !important;
+  font-size: 1.2rem !important;
+  letter-spacing: 0.05em;
+}
+
+/* Логотип в шапке */
+.site-title img {
+  height: 36px;
+  width: auto;
+  image-rendering: pixelated;
+}
+
+/* Minecraft-стиль для hero-секции */
+.hero {
+  background: linear-gradient(
+    135deg,
+    #0d1a0f 0%,
+    #1a2e1d 40%,
+    #0d1a0f 100%
+  );
+  border-radius: 12px;
+  border: 2px solid #3ddc5a33;
+}
+
+.hero h1 {
+  font-family: 'Minecraft', monospace !important;
+  color: #3ddc5a;
+  text-shadow: 2px 2px 0 #1a4d2a, 0 0 20px #3ddc5a66;
+  font-size: clamp(1.8rem, 5vw, 3.2rem) !important;
+}
+
+.hero .tagline {
+  color: #a8d5b0 !important;
+}
+
+/* Кнопки в hero */
+.hero .action.primary {
+  background: #3ddc5a !important;
+  color: #0d1a0f !important;
+  font-family: 'Minecraft', monospace !important;
+  border: 2px solid #5fff7a !important;
+  box-shadow: 0 4px 0 #1a6b2d;
+  transition: all 0.1s ease;
+}
+
+.hero .action.primary:hover {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #1a6b2d;
+}
+
+.hero .action.minimal {
+  font-family: 'Minecraft', monospace !important;
+  color: #3ddc5a !important;
+  border-color: #3ddc5a44 !important;
+}
+
+/* Sidebar стиль */
+.sidebar-content {
+  font-family: 'Minecraft', monospace;
+}
+
+nav[aria-label="Main"] a {
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+nav[aria-label="Main"] a:hover {
+  color: #3ddc5a !important;
+}
+
+/* Карточки */
+.card {
+  border: 1px solid #3ddc5a22;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  border-color: #3ddc5a66;
+  box-shadow: 0 0 16px #3ddc5a22;
+}
+
+.card .title {
+  font-family: 'Minecraft', monospace !important;
+  color: #3ddc5a;
+}
+
+/* Пиксельный разделитель */
+hr {
+  border-color: #3ddc5a33;
+}
+
+/* Badge-стиль для IP-адреса */
+.mc-ip {
+  display: inline-block;
+  background: #0d1a0f;
+  border: 2px solid #3ddc5a;
+  border-radius: 4px;
+  padding: 0.4em 1em;
+  font-family: 'Minecraft', monospace;
+  font-size: 1.1rem;
+  color: #3ddc5a;
+  letter-spacing: 0.1em;
+  box-shadow: 0 0 12px #3ddc5a44;
+  margin: 0.5em 0;
+}
+
+/* Код и IP блоки */
+code {
+  font-family: 'Minecraft', monospace !important;
+  background: #0d1a0f !important;
+  border: 1px solid #3ddc5a44 !important;
+  color: #7aff96 !important;
+}
+
