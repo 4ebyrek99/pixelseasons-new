@@ -136,3 +136,8 @@ code {
   color: #7aff96 !important;
 }
 
+/* Скрываем служебный H1 на главной (определяем страницу по логотипу в контенте). */
+main:has(.sl-markdown-content img[alt="PixelSeasons Logo"]) > .content-panel:first-child {
+  display: none;
+}
+

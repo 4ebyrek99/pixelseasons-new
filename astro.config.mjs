@@ -10,6 +10,7 @@ export default defineConfig({
 			logo: {
 				src: './public/pixelseasons-logo.png',
 				alt: 'PixelSeasons',
+				replacesTitle: true,
 			},
 			customCss: ['./src/styles/custom.css'],
 			sidebar: [
@@ -29,7 +30,7 @@ export default defineConfig({
 					label: '🔌 Плагины',
 					items: [
 						{ label: '🍂 RealisticSeasons', slug: 'plugins/realistic-seasons' },
-						{ label: '🏰 Lands — Земли', slug: 'plugins/lands' },
+						{ label: '🏰 Lands', slug: 'plugins/lands' },
 					],
 				},
 				{
