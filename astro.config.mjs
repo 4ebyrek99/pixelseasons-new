@@ -7,6 +7,12 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'PixelSeasons',
+			locales: {
+				root: {
+					label: 'Русский',
+					lang: 'ru',
+				},
+			},
 			logo: {
 				src: './public/pixelseasons-logo.png',
 				alt: 'PixelSeasons',
