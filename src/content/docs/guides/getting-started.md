@@ -13,7 +13,9 @@ description: Пошаговое руководство по подключени
 
 Для комфортной игры рекомендуется скачать подготовленный набор модов.
 
-→ [PixelSeasons Modpack](https://drive.google.com/file/d/1UkOGx1fN1uewqsVTtwnXlaL_7OohA0E1/view?usp=sharing)
+→ [PixelSeasons Modpack - google drive](https://drive.google.com/file/d/1UkOGx1fN1uewqsVTtwnXlaL_7OohA0E1/view?usp=sharing)\
+→ [PixelSeasons Modpack - mega](https://mega.nz/file/ZuRWURIL#an5KPvXtB_iZ99CYk4sLwBMXeMxX9NeUt40A8rockfw)\
+→ [PixelSeasons Modpack - yandex disk](https://disk.yandex.kz/d/gCvv9tIJXAfhhQ)
 
 ## Что важно знать с первых минут
 
