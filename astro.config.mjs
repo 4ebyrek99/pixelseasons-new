@@ -37,6 +37,7 @@ export default defineConfig({
 					items: [
 						{ label: '🍂 RealisticSeasons', slug: 'plugins/realistic-seasons' },
 						{ label: '🏰 Lands', slug: 'plugins/lands' },
+						{ label: '⚔️ AuraSkills', slug: 'plugins/auraskills' },
 					],
 				},
 				{
