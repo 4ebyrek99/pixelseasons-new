@@ -33,12 +33,18 @@ export default defineConfig({
 					],
 				},
 				{
+					label: '💰 Экономика и задания',
+					items: [
+						{ label: '💵 Экономика сервера', slug: 'guides/economy' },
+						{ label: '🧭 Задания', slug: 'guides/quests' },
+					],
+				},
+				{
 					label: '🔌 Плагины',
 					items: [
 						{ label: '🍂 RealisticSeasons', slug: 'plugins/realistic-seasons' },
 						{ label: '🏰 Lands', slug: 'plugins/lands' },
 						{ label: '⚔️ AuraSkills', slug: 'plugins/auraskills' },
-						{ label: '🛒 ShopShelves', slug: 'plugins/shopshelves' },
 					],
 				},
 				{
